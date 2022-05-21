@@ -1,0 +1,19 @@
+/*body {*/
+/*    margin: 0;*/
+/*}*/
+img {
+    height: 200px;
+    display: block;
+}
+.wrap {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.post-card {
+    border-style: solid;
+    border-width: 1px;
+    margin: 10px;
+    padding: 5px;
+    background-color: lightcyan;
+    border-radius: 5px;
+}
