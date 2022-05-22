@@ -17,3 +17,15 @@ img {
     background-color: lightcyan;
     border-radius: 5px;
 }
+.users-box {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.user-block {
+    border-style: solid;
+    border-width: 1px;
+    margin: 10px;
+    padding: 5px;
+    background-color: lightcyan;
+    border-radius: 5px;
+}

@@ -4,173 +4,173 @@
 // --створити масив з:
 //     - з 5 числових значень
 //-------------------------------------------------------
-// let arrNum = [1, 4, 6, 8, -1];
+let arrNum = [1, 4, 6, 8, -1];
 //-------------------------------------------------------
 
 // - з 5 стічкових значень
 //-------------------------------------------------------
-// let arrStr = ['Home', 'Ukraine', 'War', 'Name', 'Age'];
+let arrStr = ['Home', 'Ukraine', 'War', 'Name', 'Age'];
 //-------------------------------------------------------
 
 // - з 5 значень стрічкового, числового та булевого типу
 //-------------------------------------------------------
-// let arrStrBoolNum = [true, 'Word', 2, false, -50];
+let arrStrBoolNum = [true, 'Word', 2, false, -50];
 //-------------------------------------------------------
 
 // - та вивести його в консоль
 //-------------------------------------------------------
-// console.log(arrNum);
-// console.log(arrStr);
-// console.log(arrStrBoolNum);
+console.log(arrNum);
+console.log(arrStr);
+console.log(arrStrBoolNum);
 // //-------------------------------------------------------
 
 // -- Створити пустий масив. Наповнити його будь-якими значеннями звертаючись до конкретного індексу. Вивести в консоль
 //-------------------------------------------------------
-// let emptyArr = [];
-// emptyArr.push(true);
-// emptyArr.push('Ukraine');
-// emptyArr.push('Winner');
-// emptyArr.push(2022);
-// console.log(emptyArr);
-// console.log(emptyArr[1]);
-// console.log(emptyArr[2]);
-// console.log(emptyArr[0]);
-// console.log(emptyArr[3]);
-// for (let i = 0; i < emptyArr.length; i++) {
-//     let emptyArrElement = emptyArr[i];
-//     console.log(emptyArrElement);
-// };
+let emptyArr = [];
+emptyArr.push(true);
+emptyArr.push('Ukraine');
+emptyArr.push('Winner');
+emptyArr.push(2022);
+console.log(emptyArr);
+console.log(emptyArr[1]);
+console.log(emptyArr[2]);
+console.log(emptyArr[0]);
+console.log(emptyArr[3]);
+for (let i = 0; i < emptyArr.length; i++) {
+    let emptyArrElement = emptyArr[i];
+    console.log(emptyArrElement);
+};
 //-------------------------------------------------------
 
 // - За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом всередині
 //-------------------------------------------------------
-// for (let i = 1; i <= 10; i++) {
-//     document.write(`<div>Hello</div>`);
-// };
+for (let i = 1; i <= 10; i++) {
+    document.write(`<div>Hello</div>`);
+};
 //-------------------------------------------------------
 // - За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом і індексом всередині
 //-------------------------------------------------------
-// for (let i = 1; i <= 10; i++) {
-//     document.write(`<div>Hello ${i}</div>`);
-// };
+for (let i = 1; i <= 10; i++) {
+    document.write(`<div>Hello ${i}</div>`);
+};
 //-------------------------------------------------------
 // - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом всередині.
 //-------------------------------------------------------
-// let i = 1;
-// while (i <= 20) {
-//     i++;
-//     document.write(`<h1>While</h1>`);
-// };
+let r = 1;
+while (r <= 20) {
+    r++;
+    document.write(`<h1>While</h1>`);
+};
 //-------------------------------------------------------
 // - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом і індексом всередині.
 //-------------------------------------------------------
-// let j = 0;
-// while (j < 20) {
-//     j++;
-//     document.write(`<h1>${j} While</h1>`);
-// };
+let j = 0;
+while (j < 20) {
+    j++;
+    document.write(`<h1>${j} While</h1>`);
+};
 //-------------------------------------------------------
 // - Створити масив з 10 числових елементів. Вивести в консоль всі його елементи в циклі.
 //-------------------------------------------------------
-// let numArr = [1, 3, 5, 7, 9, 2, 4, 6, 8, 10];
-// for (let number of numArr) {
-//     console.log(number);
-// };
+let numArr = [1, 3, 5, 7, 9, 2, 4, 6, 8, 10];
+for (let number of numArr) {
+    console.log(number);
+};
 //-------------------------------------------------------
 // - Створити масив з 10 строкрових елементів. Вивести в консоль всі його елементи в циклі.
 //-------------------------------------------------------
-// let strArr = ['Ukraine', 'Win', 'In', 'This', 'War', '2022', 'Winner', 'russia - shit', 'putin-Huylo', 'The best'];
-// for (let string of strArr) {
-//     console.log(string);
-// };
+let strArr = ['Ukraine', 'Win', 'In', 'This', 'War', '2022', 'Winner', 'russia - shit', 'putin-Huylo', 'The best'];
+for (let string of strArr) {
+    console.log(string);
+};
 //-------------------------------------------------------
 // - Створити масив з 10 елементів будь-якого типу. Вивести в консоль всі його елементи в циклі.
 //-------------------------------------------------------
-// let arr = [1, true, 'false', NaN, undefined, 'Ukraine', -20, 'true', false, 10n];
-// for (let arrElement of arr) {
-//     console.log(arrElement);
-// }
+let arr1 = [1, true, 'false', NaN, undefined, 'Ukraine', -20, 'true', false, 10n];
+for (let arrElement of arr1) {
+    console.log(arrElement);
+}
 //-------------------------------------------------------
 // - Створити масив з 10 елементів числового, стірчкового і булевого типу. За допомогою if та typeof вивести тільки булеві елементи
 //-------------------------------------------------------
-// let arr2 = [1, true, 'false', NaN, undefined, 'Ukraine', -20, 'true', false, 10n];
-// for (let arr2Element of arr2) {
-//     if (typeof arr2Element === "boolean") {
-//         console.log('Boolean', arr2Element);
-//     };
-// };
+let arr2 = [1, true, 'false', NaN, undefined, 'Ukraine', -20, 'true', false, 10n];
+for (let arr2Element of arr2) {
+    if (typeof arr2Element === "boolean") {
+        console.log('Boolean', arr2Element);
+    };
+};
 //-------------------------------------------------------
 // - Створити масив з 10 елементів числового, стірчкового і булевого типу. За допомогою if та typeof вивести тільки числові елементи
 //-------------------------------------------------------
-// let arr3 = [1, true, 'false', 8, 5, 'Ukraine', -20, 'true', false, 10];
-// for (let arr2Element of arr3) {
-//     if (typeof arr2Element === "number") {
-//         console.log('Number', arr2Element);
-//     };
-// };
+let arr3 = [1, true, 'false', 8, 5, 'Ukraine', -20, 'true', false, 10];
+for (let arr2Element of arr3) {
+    if (typeof arr2Element === "number") {
+        console.log('Number', arr2Element);
+    };
+};
 //-------------------------------------------------------
 // - Створити масив з 10 елементів числового, стрічкового і булевого типу. За допомогою if та typeof вивести тільки рядкові елементи
 //-------------------------------------------------------
-// let arr4 = [1, true, 'false', NaN, undefined, 'Ukraine', -20, 'true', false, 10n];
-// for (let arr2Element of arr4) {
-//     if (typeof arr2Element === "string") {
-//         console.log('String', arr2Element);
-//     };
-// };
+let arr4 = [1, true, 'false', NaN, undefined, 'Ukraine', -20, 'true', false, 10n];
+for (let arr2Element of arr4) {
+    if (typeof arr2Element === "string") {
+        console.log('String', arr2Element);
+    };
+};
 //-------------------------------------------------------
 // - Створити порожній масив. Наповнити його 10 елементами (різними за типами) через звернення до конкретних індексів.
 //    Вивести в консоль всі його елементи в циклі.
 //-------------------------------------------------------
-// let arr5 = [1, true, 'false', 6, undefined, 'Ukraine', -20, 'true', false, 10n];
-// for (let arr5Element of arr5) {
-//     if (typeof arr5Element === "string") {
-//         console.log('String', arr5Element);
-//     };
-//     if (typeof arr5Element === "number") {
-//         console.log('Number', arr5Element);
-//     };
-//     if (typeof arr5Element === "boolean") {
-//         console.log('Boolean', arr5Element);
-//     };
-// };
+let arr5 = [1, true, 'false', 6, undefined, 'Ukraine', -20, 'true', false, 10n];
+for (let arr5Element of arr5) {
+    if (typeof arr5Element === "string") {
+        console.log('String', arr5Element);
+    };
+    if (typeof arr5Element === "number") {
+        console.log('Number', arr5Element);
+    };
+    if (typeof arr5Element === "boolean") {
+        console.log('Boolean', arr5Element);
+    };
+};
 //-------------------------------------------------------
 // - Створити цикл for на 10  ітерацій з кроком 1. Вивести поточний номер кроку через console.log та document.write
 //-------------------------------------------------------
-// for (let k = 1; k <= 10; k++) {
-//     console.log('Step', k);
-//     document.write(`'Step10' ${k}<br>`)
-// };
+for (let k = 1; k <= 10; k++) {
+    console.log('Step', k);
+    document.write(`'Step10' ${k}<br>`)
+};
 // //-------------------------------------------------------
 // - Створити цикл for на 100 ітерацій з кроком 1. Вивести поточний номер кроку через console.log та document.write
 //-------------------------------------------------------
-// for (let k = 1; k <= 100; k++) {
-//     console.log('Step100', k);
-//     document.write(`'Step100' ${k}<br>`);
-// }
+for (let k = 1; k <= 100; k++) {
+    console.log('Step100', k);
+    document.write(`'Step100' ${k}<br>`);
+}
 //-------------------------------------------------------
 // - Створити цикл for на 100 ітерацій з кроком 2. Вивести поточний номер кроку через console.log та document.write
 //-------------------------------------------------------
-// for (let k = 0; k < 100; k++) {
-//     console.log('Step2', k = k+1);
-//     document.write(`Step2' ${k = k+1}<br>`);
-// };
+for (let k = 0; k < 100; k++) {
+    console.log('Step2', k = k+1);
+    document.write(`Step2' ${k = k+1}<br>`);
+};
 //-------------------------------------------------------
 // - Створити цикл for на 100 ітерацій. Вивести тільки парні кроки. через console.log + document.write
 //-------------------------------------------------------
-// for (let k = 0; k <= 100; k++) {
-//     if (k%2 === 0) {
-//         console.log('K', k);
-//         document.write(`K = ${k}<br>`);
-//     };
-// };
+for (let k = 0; k <= 100; k++) {
+    if (k%2 === 0) {
+        console.log('K', k);
+        document.write(`K = ${k}<br>`);
+    };
+};
 //-------------------------------------------------------
 // - Створити цикл for на 100 ітерацій. Вивести тільки непарні кроки. через console.log + document.write
-// for (let k = 0; k <= 100; k++) {
-//     if (k%2 === 1) {
-//         console.log('K', k);
-//         document.write(`K = ${k}<br>`);
-//     };
-// };
+for (let k = 0; k <= 100; k++) {
+    if (k%2 === 1) {
+        console.log('K', k);
+        document.write(`K = ${k}<br>`);
+    };
+};
 
 //---------------------------------------------------------------------------------------------------------------------
 // OKTEN-HW1-2
@@ -183,12 +183,12 @@
 let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
 //-------------------------------------------------------
 // template 1.1
-// document.write(`<ul>`);
-// for (let i = 0; i < listOfItems.length; i++) {
-//     let listOfItem = listOfItems[i];
-//     document.write(`<li>${listOfItem}</li>`);
-// }
-// document.write(`</ul>`);
+document.write(`<ul>`);
+for (let i = 0; i < listOfItems.length; i++) {
+    let listOfItem = listOfItems[i];
+    document.write(`<li>${listOfItem}</li>`);
+}
+document.write(`</ul>`);
 //-------------------------------------------------------
 /*
 Використовуючи данні з масиву, за допомоги document.write та циклу
@@ -236,36 +236,36 @@ let simpsons = [
 ];
 //-------------------------------------------------------
 // template2.1
-// document.write(`<div>`);
-// for (let i = 0; i < simpsons.length; i++) {
-//     document.write(`<hr>`);
-//     let simpson = simpsons[i];
-//     for (let simpsonKey in simpson) {
-//         if (simpsonKey === 'photo') {
-//             document.write(`<img src=${simpson.photo} alt="foto"><br>`);
-//         } else {
-//             document.write(`${simpsonKey.toUpperCase()} : ${simpson[simpsonKey]} `);
-//         };
-//     };
-// };
-// document.write(`</div>`);
+document.write(`<div>`);
+for (let i = 0; i < simpsons.length; i++) {
+    document.write(`<hr>`);
+    let simpson = simpsons[i];
+    for (let simpsonKey in simpson) {
+        if (simpsonKey === 'photo') {
+            document.write(`<img src=${simpson.photo} alt="foto"><br>`);
+        } else {
+            document.write(`${simpsonKey.toUpperCase()} : ${simpson[simpsonKey]} `);
+        };
+    };
+};
+document.write(`</div>`);
 //-------------------------------------------------------
 // template2.2
-// document.writeln(`<div>`);
-// for (let i = 0; i < simpsons.length; i++) {
-//     document.write(`<hr>`);
-//     let simpson = simpsons[i];
-//     for (let simpsonKey in simpson) {
-//         if (simpsonKey === 'photo') {
-//             document.write(`<img src=${simpson.photo} alt="photo"><br>`);
-//         } else if (simpsonKey === 'name' || simpsonKey === 'surname') {
-//             document.write(`<h2>${simpsonKey.toUpperCase()} : ${simpson[simpsonKey]}</h2>`);
-//         } else {
-//             document.write(`<p>${simpsonKey.toUpperCase()} : ${simpson[simpsonKey]}</p>`);
-//         };
-//     };
-// };
-// document.write(`</div>`);
+document.writeln(`<div>`);
+for (let i = 0; i < simpsons.length; i++) {
+    document.write(`<hr>`);
+    let simpson = simpsons[i];
+    for (let simpsonKey in simpson) {
+        if (simpsonKey === 'photo') {
+            document.write(`<img src=${simpson.photo} alt="photo"><br>`);
+        } else if (simpsonKey === 'name' || simpsonKey === 'surname') {
+            document.write(`<h2>${simpsonKey.toUpperCase()} : ${simpson[simpsonKey]}</h2>`);
+        } else {
+            document.write(`<p>${simpsonKey.toUpperCase()} : ${simpson[simpsonKey]}</p>`);
+        };
+    };
+};
+document.write(`</div>`);
 //-------------------------------------------------------
 /*
 Використовуючи данні з масиву, за допомоги document.write та циклу
@@ -296,28 +296,27 @@ let products = [
 ];
 //-------------------------------------------------------
 // template 3.1
-// document.write(`<div>`);
-// for (let i = 0; i < products.length; i++) {
-//     document.write(`<hr>`)
-//     let product = products[i];
-//     document.write(`<div class="product-card">`);
-//     for (let productKey in product) {
-//         if (productKey === 'image') {
-//             document.write(`<img src=${product.image} alt="image" class="product-image"><br>`)
-//         } else {
-//             document.write(`<h3 class="product-title">${productKey.toUpperCase()} : ${product[productKey]}</h3>`)
-//         };
-//     }
-//     document.write(`</div>`);
-// }
-// document.write(`</div>`);
+document.write(`<div>`);
+for (let i = 0; i < products.length; i++) {
+    document.write(`<hr>`)
+    let product = products[i];
+    document.write(`<div class="product-card">`);
+    for (let productKey in product) {
+        if (productKey === 'image') {
+            document.write(`<img src=${product.image} alt="image" class="product-image"><br>`)
+        } else {
+            document.write(`<h3 class="product-title">${productKey.toUpperCase()} : ${product[productKey]}</h3>`)
+        };
+    }
+    document.write(`</div>`);
+}
+document.write(`</div>`);
 //-------------------------------------------------------
 //---------------------------------------------------------------------------------------------------------------------
 // OKTEN-HW2-2
 //---------------------------------------------------------------------------------------------------------------------
 /*За допомогою циклу вивести всю інформацію про пости використовуючи шаблон Template 4.1.
-* ЗА допомоги стилів побудувати структуру "сітки" по 5 об'єктів в лінію
-* */
+* ЗА допомоги стилів побудувати структуру "сітки" по 5 об'єктів в лінію */
 let arr =
 [
     {
@@ -925,21 +924,654 @@ let arr =
 //  ЗА допомоги стилів побудувати структуру "сітки" по 5 об'єктів в лінію
 // Template 4.1.
 //-------------------------------------------------------
-// document.write(`<div class="wrap">`);
-// for (let i = 0; i < arr.length; i++) {
-//     document.write(`<div class="post-card">`);
-//     let arrElement = arr[i];
-//     for (let arrElementKey in arrElement) {
-//         if (arrElementKey === 'id' || arrElementKey === 'title') {
-//             document.write(`<h3>${arrElementKey.toUpperCase()}: ${arrElement[arrElementKey]}</h3>`)
-//         } else if (arrElementKey === 'body') {
-//             document.write(`<p>${arrElementKey.toUpperCase()}: ${arrElement[arrElementKey]}</p>`)
-//         } else {
-//             document.write(`<p>${arrElementKey.toUpperCase()}: ${arrElement[arrElementKey]}</p>`)
-//         }
-//     }
-//     document.write(`</div>`);
-// }
-// document.write(`</div>`);
+document.write(`<div class="wrap">`);
+for (let i = 0; i < arr.length; i++) {
+    document.write(`<div class="post-card">`);
+    let arrElement = arr[i];
+    for (let arrElementKey in arrElement) {
+        if (arrElementKey === 'id' || arrElementKey === 'title') {
+            document.write(`<h3>${arrElementKey.toUpperCase()}: ${arrElement[arrElementKey]}</h3>`)
+        } else if (arrElementKey === 'body') {
+            document.write(`<p>${arrElementKey.toUpperCase()}: ${arrElement[arrElementKey]}</p>`)
+        } else {
+            document.write(`<p>${arrElementKey.toUpperCase()}: ${arrElement[arrElementKey]}</p>`)
+        }
+    }
+    document.write(`</div>`);
+}
+document.write(`</div>`);
+//-------------------------------------------------------
+//---------------------------------------------------------------------------------------------------------------------
+// OKTEN-AW1-2
+//---------------------------------------------------------------------------------------------------------------------
+// зробити масив з 10 чисел [2,17,13,6,22,31,45,66,100,-18]та:
+let arrWhile = [2,17,13,6,22,31,45,66,100,-18];
+//     1. перебрати його циклом while
+//-------------------------------------------------------
+let a = 0;
+while (a <= arrWhile.length-1) {
+    console.log(arrWhile[a]);
+    a++;
+};
+//-------------------------------------------------------
+//     2. перебрати його циклом for
+//-------------------------------------------------------
+let arrWhile2 = [2,17,13,6,22,31,45,66,100,-18];
+for (let j = 0; j <=arrWhile2.length; j++) {
+    console.log(arrWhile2[j]);
+};
+//-------------------------------------------------------
+//     3. перебрати циклом while та вивести  числа тільки з непарним індексом
+//-------------------------------------------------------
+let arrWhile3 = [2,17,13,6,22,31,45,66,100,-18];
+let k = 0;
+while (k <= arrWhile3.length) {
+    k++;
+    if (arrWhile3[k]%2 === 1) {
+        console.log(arrWhile3[k]);
+    };
+};
+//-------------------------------------------------------
+// 4. перебрати циклом for та вивести  числа тільки з непарним індексом
+//-------------------------------------------------------
+let arrWhile4 = [2,17,13,6,22,31,45,66,100,-18];
+for (let s = 0; s <= arrWhile4.length; s++) {
+    if (arrWhile4[s]%2 === 1) {
+        console.log(arrWhile4[s]);
+    };
+};
+//-------------------------------------------------------
+// 5. перебрати циклом while та вивести  числа тільки парні  значення
+//-------------------------------------------------------
+let arrWhile5 = [2,17,13,6,22,31,45,66,100,-18];
+let w = 0;
+while (w <= arrWhile5.length) {
+    w++;
+    if (arrWhile5[w]%2 === 0) {
+        console.log(arrWhile5[w]);
+    };
+};
+//-------------------------------------------------------
+// 6. перебрати циклом for та вивести  числа тільки парні  значення
+//-------------------------------------------------------
+let arrWhile6 = [2,17,13,6,22,31,45,66,100,-18];
+for (let s = 0; s <= arrWhile6.length; s++) {
+    if (arrWhile6[s]%2 === 0) {
+        console.log(arrWhile6[s]);
+    };
+};
+//-------------------------------------------------------
+// 7. замінити кожне число кратне 3 на слово "okten"
+//-------------------------------------------------------
+let arrWhile7 = [2,17,13,6,22,31,45,66,100,-18];
+for (let s = 0; s <= arrWhile7.length; s++) {
+    if (arrWhile7[s]%3 === 0) {
+        console.log(arrWhile7[s] = "okten");
+    };
+};
+console.log(arrWhile7);
+//-------------------------------------------------------
+// 8. вивести масив в зворотньому порядку.
+//-------------------------------------------------------
+let arrWhile8 = [2,17,13,6,22,31,45,66,100,-18];
+let revArr = arrWhile8.reverse();
+console.log(revArr);
+console.log(arrWhile8);
+for (let i = arrWhile8.length; i >= 0; i--) {
+    let arrWhileElement = arrWhile8[i];
+    console.log(arrWhileElement);
+};
+//-------------------------------------------------------
+// 9. всі попередні завдання (окрім 8), але в зворотньому циклі (с заду на перед)
+//-------------------------------------------------------
+let arrWhile9 = [2,17,13,6,22,31,45,66,100,-18];
+let i = arrWhile9.length;
+while (i >= 0) {
+    console.log(arrWhile9[i]);
+    i--;
+};
+//===========
+let arrWhile10 = [2,17,13,6,22,31,45,66,100,-18];
+for (let j = arrWhile10.length; j >= 0; j--) {
+    console.log(arrWhile10[j]);
+};
+//===========
+let arrWhile11 = [2,17,13,6,22,31,45,66,100,-18];
+let q = arrWhile11.length;
+while (q >= 0) {
+    q--;
+    if (arrWhile11[q]%2 === 1) {
+        console.log(arrWhile11[q]);
+    };
+};
+//===========
+let arrWhile12 = [2,17,13,6,22,31,45,66,100,-18];
+for (let s = arrWhile12.length; s >= 0; s--) {
+    if (arrWhile12[s]%2 === 1) {
+        console.log(arrWhile12[s]);
+    };
+};
+//===========
+let arrWhile13 = [2,17,13,6,22,31,45,66,100,-18];
+let m = arrWhile13.length;
+while (m >= 0) {
+    m--;
+    if (arrWhile13[m]%2 === 0) {
+        console.log(arrWhile13[m]);
+    };
+};
+//===========
+let arrWhile14 = [2,17,13,6,22,31,45,66,100,-18];
+for (let s = arrWhile14.length; s >= 0; s--) {
+    if (arrWhile14[s]%2 === 0) {
+        console.log(arrWhile14[s]);
+    };
+};
+//===========
+let arrWhile15 = [2,17,13,6,22,31,45,66,100,-18];
+for (let s = arrWhile15.length; s >= 0; s--) {
+    if (arrWhile15[s]%3 === 0) {
+        arrWhile15[s] = "okten";
+    };
+    console.log(arrWhile15[s]);
+};
+console.log(arrWhile15);
+//===========
+//-------------------------------------------------------
+// 10
+// створити пустий масив та :
+//-------------------------------------------------------
+let emptyArr1 = [];
+let emptyArr2 = [];
+//-------------------------------------------------------
+//     - заповнити його 50 парними числами за допомоги циклу.
+//-------------------------------------------------------
+for (let i = 0; i < 100; i++) {
+    if (i%2 === 0) {
+        emptyArr1.push(i);
+    };
+};
+console.log(emptyArr1);
+//-------------------------------------------------------
+// - заповнити його 50 непарними числами за допомоги циклу.
+//-------------------------------------------------------
+for (let i = 0; i < 100; i++) {
+    if (i%2 === 1) {
+        emptyArr2.push(i);
+    };
+};
+console.log(emptyArr2);
+//-------------------------------------------------------
+//
+// 1. Створити пустий масив та :
+let arrEmpty2 = [];
+//     a. заповнити його 50 парними числами за допомоги циклу.
+//-------------------------------------------------------
+let arrEmptyA = [];
+for (let i = 0; i < 100; i++) {
+    if (i%2 === 0) {
+        arrEmptyA.push(i);
+    };
+};
+console.log(arrEmptyA);
+//-------------------------------------------------------
+//     b. заповнити його 50 непарними числами за допомоги циклу.
+//-------------------------------------------------------
+let arrEmptyB = [];
+for (let i = 0; i < 100; i++) {
+    if (i%2 === 1) {
+        arrEmptyB.push(i);
+    };
+};
+console.log(arrEmptyB);
+//-------------------------------------------------------
+//     c. Заповнити масив 20ма рандомними числами. (Google: Generate random number JS)
+//-------------------------------------------------------
+let random_startC = 1; // От какого генерировать
+let random_endC = 1000; // До какого генерировать
+let arrEmptyC = [];
+
+allСyclesC = 20;
+
+for (let i = random_startC; i <= random_endC; i++) {
+    arrEmptyC.push(i);
+};
+
+for (let countCycles = 1; countCycles <= allСyclesC; countCycles++){
+    console.log(arrEmptyC.splice(Math.random()*arrEmptyC.length,1)[0])
+};
+//-------------------------------------------------------
+// d. Заповнити масив 20ма рандомними чисалами в діапазоні від 8 до 732 (Google: Generate random number JS)
+//-------------------------------------------------------
+let random_startD = 8; // От какого генерировать
+let random_endD = 732; // До какого генерировать
+let arrEmptyD = [];
+
+allСyclesD = 20;
+
+for (let i = random_startD; i <= random_endD; i++) {
+    arrEmptyD.push(i);
+};
+
+for (let countCycles = 1; countCycles <= allСyclesD; countCycles++){
+    console.log(arrEmptyD.splice(Math.random()*arrEmptyD.length,1)[0])
+};
+//-------------------------------------------------------
+// 2. Вивести за допомогою console.log кожен третій елемен
+//-------------------------------------------------------
+let random_start2 = 8; // От какого генерировать
+let random_end2 = 732; // До какого генерировать
+
+allСycles2 = 20;
+
+for (let i = random_start2; i <= random_end2; i++) {
+    arrEmpty2.push(i);
+};
+
+for (let countCycles = 1; countCycles <= allСycles2; countCycles++){
+    if (countCycles%3 === 0) {
+        console.log(arrEmpty2.splice(Math.random() * arrEmpty2.length, 1)[0]);
+    };
+};
+//-------------------------------------------------------
+// 3. Вивести за допомогою console.log кожен третій елемен тільки якщо цей елемент є парним.
+//-------------------------------------------------------
+let random_start3 = 8; // От какого генерировать
+let random_end3 = 732; // До какого генерировать
+let arrEmpty3 = [];
+
+for (let i = random_start3; i <= random_end3; i++) {
+    arrEmpty3.push(i);
+};
+
+for (let i = 1; i < arrEmpty3.length-1; i++) {
+    let element = arrEmpty3[i];
+    if (i%3 === 0) {
+        if (element%2 === 0) {
+           console.log('Парный елемент: ', element);
+        };
+    };
+};
+console.log('Old ARR', arrEmpty3);
+//-------------------------------------------------------
+// 4. Вивести за допомогою console.log кожен третій елемен тільки якщо цей елемент є парним та записати їх в новий масив
+//-------------------------------------------------------
+let random_start4 = 8; // От какого генерировать
+let random_end4 = 732; // До какого генерировать
+let arrEmpty4 = [];
+let arrNew = [];
+
+for (let i = random_start4; i <= random_end4; i++) {
+    arrEmpty4.push(i);
+};
+
+for (let i = 1; i < arrEmpty4.length-1; i++) {
+    let element = arrEmpty4[i];
+    if (i%3 === 0) {
+        if (element%2 === 0) {
+            arrNew.push(element);
+        };
+    };
+};
+console.log('Old ARR', arrEmpty4);
+console.log('New ARR', arrNew);
+//-------------------------------------------------------
+// 5. Вивести кожен елемент масиву, сусід справа якого є парним
+// EXAMPLE: [ 1, 2, 3, 5, 7, 9, 56, 8, 67 ] -> Має бути виведено 1, 9, 56
+//-------------------------------------------------------
+let arrRight = [ 1, 2, 3, 5, 7, 9, 56, 8, 67 ];
+for (let i = 0; i < arrRight.length; i++) {
+    let element = arrRight[i];
+    if (element%2 === 0) {
+        console.log('Elem', arrRight[i-1]); // -> 1, 9, 56
+    };
+};
+//-------------------------------------------------------
+// 6. Є масив з числами [100,250,50,168,120,345,188], Які характеризують вартість окремої покупки. Обрахувати середній чек.
+//-------------------------------------------------------
+let arrCoast = [100,250,50,168,120,345,188];
+let midle = arrCoast.reduce(function (previousValue, currentValue, index, array) {
+    return (previousValue + currentValue);
+})/arrCoast.length;
+console.log(midle);
+//-------------------------------------------------------
+// 7. Створити масив з рандомними значеннями, помножити всі його елементи на 5 та перемістити їх в інший масив.
+//-------------------------------------------------------
+let startPoint = 1;
+let endPoint = 25;
+let randomArr = [];
+let randomArr5 = [];
+
+for (let i = startPoint; i <= endPoint; i++) {
+    randomArr.push(Math.floor((Math.random()*100)));
+};
+console.log('Начальный масив', randomArr);
+randomArr.forEach((value) => {
+    randomArr5.push(value*5);
+});
+console.log('Умножено на 5', randomArr5);
+//-------------------------------------------------------
+// 8. Створити масив з будь якими значеннями (стрінги, числа, і тд...). пройтись по ньому,
+// і якщо елемент є числом - додати його в інший масив.
+//-------------------------------------------------------
+let arr8 = [1, true, 'false', 3.14, undefined, 'Ukraine', -20, 'true', false, 10];
+let arr8New = [];
+arr8.forEach((value => {
+    if (typeof value === 'number') {
+        arr8New.push(value);
+    };
+}));
+console.log('Basic Arr', arr8);
+console.log('Number Arr ', arr8New);
+//-------------------------------------------------------
+
+// - Дано 2 масиви з рівною кількістю об'єктів.
+// Масиви:
+let usersWithId = [
+    {id: 1, name: 'vasya', age: 31, status: false},
+    {id: 2, name: 'petya', age: 30, status: true},
+    {id: 3, name: 'kolya', age: 29, status: true},
+    {id: 4, name: 'olya', age: 28, status: false}
+];
+
+let citiesWithId = [
+    {user_id: 3, country: 'USA', city: 'Portland'},
+    {user_id: 1, country: 'Ukraine', city: 'Ternopil'},
+    {user_id: 2, country: 'Poland', city: 'Krakow'},
+    {user_id: 4, country: 'USA', city: 'Miami'}
+];
+
+// // З'єднати в один об'єкт користувача та місто з відповідними "id" та "user_id" .
+// //     Записати цей об'єкт в новий масив
+// // Example:
+//     let usersWithCities = [
+//         {
+//             id: 1, // <===
+//             name: 'vasya',
+//             age: 31,
+//             status: false,
+//             address: {
+//                 user_id: 1, // <===
+//                 country: 'Ukraine',
+//                 city: 'Ternopil'
+//             }
+//         },
+//         // TO BE CONTINUED .....
+//     ]
+//-------------------------------------------------------
+console.log('usersWithId', usersWithId);
+console.log('citiesWithId', citiesWithId);
+let usersWithCities = [];
+
+for (let usersWithIdElement of usersWithId) {
+    for (let citiesWithIdElement of citiesWithId) {
+        if (usersWithIdElement.id === citiesWithIdElement.user_id) {
+            usersWithIdElement.address = citiesWithIdElement;
+            usersWithCities.push(usersWithIdElement);
+        };
+    };
+};
+console.log('usersWithCities', usersWithCities);
+//-------------------------------------------------------
+
+//---------------------------------------------------------------------------------------------------------------------
+// OKTEN-AW2-2
+//---------------------------------------------------------------------------------------------------------------------
+/*За допомогою циклу вивести всю інформацію про користувачів використовуючи шаблон Template 5.1
+  за допомоги стилів, побудувати сітку по 2 об'єкта в лінію */
+
+let usersList = [
+    {
+        id: 1,
+        name: 'Leanne Graham',
+        username: 'Bret',
+        email: 'Sincere@april.biz',
+        address: {
+            street: 'Kulas Light',
+            suite: 'Apt. 556',
+            city: 'Gwenborough',
+            zipcode: '92998-3874',
+            geo: {
+                lat: '-37.3159',
+                lng: '81.1496'
+            }
+        },
+        phone: '1-770-736-8031 x56442',
+        website: 'hildegard.org',
+        company: {
+            name: 'Romaguera-Crona',
+            catchPhrase: 'Multi-layered client-server neural-net',
+            bs: 'harness real-time e-markets'
+        }
+    },
+    {
+        id: 2,
+        name: 'Ervin Howell',
+        username: 'Antonette',
+        email: 'Shanna@melissa.tv',
+        address: {
+            street: 'Victor Plains',
+            suite: 'Suite 879',
+            city: 'Wisokyburgh',
+            zipcode: '90566-7771',
+            geo: {
+                lat: '-43.9509',
+                lng: '-34.4618'
+            }
+        },
+        phone: '010-692-6593 x09125',
+        website: 'anastasia.net',
+        company: {
+            name: 'Deckow-Crist',
+            catchPhrase: 'Proactive didactic contingency',
+            bs: 'synergize scalable supply-chains'
+        }
+    },
+    {
+        id: 3,
+        name: 'Clementine Bauch',
+        username: 'Samantha',
+        email: 'Nathan@yesenia.net',
+        address: {
+            street: 'Douglas Extension',
+            suite: 'Suite 847',
+            city: 'McKenziehaven',
+            zipcode: '59590-4157',
+            geo: {
+                lat: '-68.6102',
+                lng: '-47.0653'
+            }
+        },
+        phone: '1-463-123-4447',
+        website: 'ramiro.info',
+        company: {
+            name: 'Romaguera-Jacobson',
+            catchPhrase: 'Face to face bifurcated interface',
+            bs: 'e-enable strategic applications'
+        }
+    },
+    {
+        id: 4,
+        name: 'Patricia Lebsack',
+        username: 'Karianne',
+        email: 'Julianne.OConner@kory.org',
+        address: {
+            street: 'Hoeger Mall',
+            suite: 'Apt. 692',
+            city: 'South Elvis',
+            zipcode: '53919-4257',
+            geo: {
+                lat: '29.4572',
+                lng: '-164.2990'
+            }
+        },
+        phone: '493-170-9623 x156',
+        website: 'kale.biz',
+        company: {
+            name: 'Robel-Corkery',
+            catchPhrase: 'Multi-tiered zero tolerance productivity',
+            bs: 'transition cutting-edge web services'
+        }
+    },
+    {
+        id: 5,
+        name: 'Chelsey Dietrich',
+        username: 'Kamren',
+        email: 'Lucio_Hettinger@annie.ca',
+        address: {
+            street: 'Skiles Walks',
+            suite: 'Suite 351',
+            city: 'Roscoeview',
+            zipcode: '33263',
+            geo: {
+                lat: '-31.8129',
+                lng: '62.5342'
+            }
+        },
+        phone: '(254)954-1289',
+        website: 'demarco.info',
+        company: {
+            name: 'Keebler LLC',
+            catchPhrase: 'User-centric fault-tolerant solution',
+            bs: 'revolutionize end-to-end systems'
+        }
+    },
+    {
+        id: 6,
+        name: 'Mrs. Dennis Schulist',
+        username: 'Leopoldo_Corkery',
+        email: 'Karley_Dach@jasper.info',
+        address: {
+            street: 'Norberto Crossing',
+            suite: 'Apt. 950',
+            city: 'South Christy',
+            zipcode: '23505-1337',
+            geo: {
+                lat: '-71.4197',
+                lng: '71.7478'
+            }
+        },
+        phone: '1-477-935-8478 x6430',
+        website: 'ola.org',
+        company: {
+            name: 'Considine-Lockman',
+            catchPhrase: 'Synchronised bottom-line interface',
+            bs: 'e-enable innovative applications'
+        }
+    },
+    {
+        id: 7,
+        name: 'Kurtis Weissnat',
+        username: 'Elwyn.Skiles',
+        email: 'Telly.Hoeger@billy.biz',
+        address: {
+            street: 'Rex Trail',
+            suite: 'Suite 280',
+            city: 'Howemouth',
+            zipcode: '58804-1099',
+            geo: {
+                lat: '24.8918',
+                lng: '21.8984'
+            }
+        },
+        phone: '210.067.6132',
+        website: 'elvis.io',
+        company: {
+            name: 'Johns Group',
+            catchPhrase: 'Configurable multimedia task-force',
+            bs: 'generate enterprise e-tailers'
+        }
+    },
+    {
+        id: 8,
+        name: 'Nicholas Runolfsdottir V',
+        username: 'Maxime_Nienow',
+        email: 'Sherwood@rosamond.me',
+        address: {
+            street: 'Ellsworth Summit',
+            suite: 'Suite 729',
+            city: 'Aliyaview',
+            zipcode: '45169',
+            geo: {
+                lat: '-14.3990',
+                lng: '-120.7677'
+            }
+        },
+        phone: '586.493.6943 x140',
+        website: 'jacynthe.com',
+        company: {
+            name: 'Abernathy Group',
+            catchPhrase: 'Implemented secondary concept',
+            bs: 'e-enable extensible e-tailers'
+        }
+    },
+    {
+        id: 9,
+        name: 'Glenna Reichert',
+        username: 'Delphine',
+        email: 'Chaim_McDermott@dana.io',
+        address: {
+            street: 'Dayna Park',
+            suite: 'Suite 449',
+            city: 'Bartholomebury',
+            zipcode: '76495-3109',
+            geo: {
+                lat: '24.6463',
+                lng: '-168.8889'
+            }
+        },
+        phone: '(775)976-6794 x41206',
+        website: 'conrad.com',
+        company: {
+            name: 'Yost and Sons',
+            catchPhrase: 'Switchable contextually-based project',
+            bs: 'aggregate real-time technologies'
+        }
+    },
+    {
+        id: 10,
+        name: 'Clementina DuBuque',
+        username: 'Moriah.Stanton',
+        email: 'Rey.Padberg@karina.biz',
+        address: {
+            street: 'Kattie Turnpike',
+            suite: 'Suite 198',
+            city: 'Lebsackbury',
+            zipcode: '31428-2261',
+            geo: {
+                lat: '-38.2386',
+                lng: '57.2232'
+            }
+        },
+        phone: '024-648-3804',
+        website: 'ambrose.net',
+        company: {
+            name: 'Hoeger LLC',
+            catchPhrase: 'Centralized empowering task-force',
+            bs: 'target end-to-end models'
+        }
+    }
+];
+//-------------------------------------------------------
+<!--template 5.1-->
+document.write(`<div class="users-box">`);
+for (let i = 0; i < usersList.length; i++) {
+    document.write(`<div class="user-block">`);
+    let element = usersList[i];
+    for (let elementKey in element) {
+        if (elementKey === 'id') {
+            document.write(`<h2>Id: ${element.id} - User Name: ${element.username} - Name: ${element.name}</h2>`);
+            document.write(`<h3>Email: ${element.email} - Phone: ${element.phone}</h3>`);
+            document.write(`<div class="address-block">`);
+            document.write(`<p>City: ${element.address.city}</p>`);
+            document.write(`<p>Street: ${element.address.street}</p>`);
+            document.write(`<p>Suite: ${element.address.suite}</p>`);
+            document.write(`<p>Zip Code: ${element.address.zipcode}</p>`);
+            document.write(`</div>`);
+        };
+    };
+    document.write(`</div>`);
+}
+document.write(`</div>`);
 //-------------------------------------------------------
 //---------------------------------------------------------------------------------------------------------------------
